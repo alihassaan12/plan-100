@@ -39,11 +39,16 @@ p {
 
 .hero-font {
     font-size: 15ch;
-    font-family: "Exo";
 }
 
 .height {
     height: 90vh;
+}
+.main-font{
+        font-family: "Exo";
+}
+.yellow-color{
+    color: #ffcc00;
 }
 
 @font-face {
