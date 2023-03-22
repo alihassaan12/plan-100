@@ -51,6 +51,11 @@ p {
     color: #ffcc00;
 }
 
+::selection{
+    background-color: #FF9100;
+    color: white;
+}
+
 @font-face {
     font-family: "Tajawal";
     src: url(fonts/Tajawal-Light.ttf);
