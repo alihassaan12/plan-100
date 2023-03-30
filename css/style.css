@@ -225,23 +225,95 @@ a {
 @media only screen and (min-width: 960px) and (max-width: 1023px) {}
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .head-font {
+        font-family: "Tajawal";
+        letter-spacing: 10px;
+        font-size: 23px;
+    }
+
+    .dis-font {
+        font-family: "ShadowsInto";
+        width: 100%;
+    }
+
+    .hero-font {
+        font-size: 9ch;
+    }
+
+    ul {
+        padding: 20px 0px;
+    }
+
     .foter-b {
         border-bottom: 1px solid white;
+        width: 20%;
+    }
+
+    .line-hov::after {
+        display: none;
     }
 
 }
 
 @media only screen and (min-width: 540px) and (max-width: 720px) {
+    .head-font {
+        font-family: "Tajawal";
+        letter-spacing: 10px;
+        font-size: 23px;
+    }
+
+    .dis-font {
+        font-family: "ShadowsInto";
+        width: 100%;
+    }
+
+    .hero-font {
+        font-size: 9ch;
+    }
+
+    ul {
+        padding: 20px 0px;
+    }
+
     .foter-b {
         border-bottom: 1px solid white;
+        width: 20%;
+    }
+
+    .line-hov::after {
+        display: none;
     }
 
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+    .head-font {
+        font-family: "Tajawal";
+        letter-spacing: 10px;
+        font-size: 23px;
+    }
+
+    .dis-font {
+        font-family: "ShadowsInto";
+        width: 100%;
+    }
+
+    .hero-font {
+        font-size: 9ch;
+    }
+
+    ul {
+        padding: 20px 0px;
+    }
+
     .foter-b {
         border-bottom: 1px solid white;
+        width: 20%;
+    }
+
+    .line-hov::after {
+        display: none;
     }
 
 }
@@ -270,5 +342,9 @@ a {
     .foter-b {
         border-bottom: 1px solid white;
         width: 20%;
+    }
+
+    .line-hov::after {
+        display: none;
     }
 }
