@@ -159,7 +159,7 @@ a {
 
 .icons a:nth-child(2) {
     color: #000000;
-    background-image: linear-gradient(#fff 50%,#FF9100 50%);
+    background-image: linear-gradient(#fff 50%, #FF9100 50%);
 }
 
 .icons a:nth-child(3) {
@@ -176,6 +176,32 @@ a {
     background-position: 0% 100%;
     color: #fff;
 }
+
+.line-hov {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    font-size: 20px !important;
+}
+
+.line-hov::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF9100;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.line-hov:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 
 @font-face {
     font-family: "Tajawal";
