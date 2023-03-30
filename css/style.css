@@ -44,23 +44,143 @@ p {
 .height {
     height: 80vh;
 }
-.main-font{
-        font-family: "Exo";
+
+.main-font {
+    font-family: "Exo";
 }
-.yellow-color{
+
+.yellow-color {
     color: #ffcc00;
 }
 
-::selection{
+::selection {
     background-color: #FF9100;
     color: white;
+}
+
+.navbar-toggler.x[aria-expanded=true] .icon-bar:nth-of-type(1) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 10% 10%;
+    -ms-transform-origin: 10% 10%;
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler.x[aria-expanded=true] .icon-bar:nth-of-type(2) {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler.x[aria-expanded=true] .icon-bar:nth-of-type(3) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 10% 90%;
+    -ms-transform-origin: 10% 90%;
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.x .icon-bar {
+    width: 22px;
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.navbar-toggler.x .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0 !important;
+    box-shadow: 0 !important;
+}
+
+.navbar-toggler.x .icon-bar:nth-of-type(1) {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.navbar-toggler.x .icon-bar:nth-of-type(2) {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+}
+
+.navbar-toggler.x .icon-bar:nth-of-type(3) {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.icon-hov:hover {
+    color: rgb(0, 0, 0) !important;
+    background-color: #FF9100;
+    transition: 0.4s;
+    padding: 10px;
+
+}
+
+.icons a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+    transition: background-position 0.5s, color 0.5s;
+}
+
+.icons a:nth-child(1) {
+    color: #000000;
+    background-image: linear-gradient(#fff 50%, #FF9100 50%);
+}
+
+.icons a:nth-child(2) {
+    color: #000000;
+    background-image: linear-gradient(#fff 50%,#FF9100 50%);
+}
+
+.icons a:nth-child(3) {
+    color: #000000;
+    background-image: linear-gradient(#fff 50%, #FF9100 50%);
+}
+
+.icons a:nth-child(4) {
+    color: #000000;
+    background-image: linear-gradient(#fff 50%, #FF9100 50%);
+}
+
+.icons a:hover {
+    background-position: 0% 100%;
+    color: #fff;
 }
 
 @font-face {
     font-family: "Tajawal";
     src: url(fonts/Tajawal-Light.ttf);
 }
-
 
 @font-face {
     font-family: "ShadowsInto";
@@ -70,4 +190,59 @@ p {
 @font-face {
     font-family: "Exo";
     src: url(fonts/Exo-ExtraBold.ttf);
+}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .foter-b {
+        border-bottom: 1px solid white;
+    }
+
+}
+
+@media only screen and (min-width: 540px) and (max-width: 720px) {
+    .foter-b {
+        border-bottom: 1px solid white;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .foter-b {
+        border-bottom: 1px solid white;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    .head-font {
+        font-family: "Tajawal";
+        letter-spacing: 10px;
+        font-size: 23px;
+    }
+
+    .dis-font {
+        font-family: "ShadowsInto";
+        width: 100%;
+    }
+
+    .hero-font {
+        font-size: 9ch;
+    }
+
+    ul {
+        padding: 20px 0px;
+    }
+
+    .foter-b {
+        border-bottom: 1px solid white;
+        width: 20%;
+    }
 }

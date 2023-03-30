@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
 </head>
@@ -20,26 +24,27 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light orange-bg py-4 px-3">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="#"><img src="image/logo.png" class="nav-logo" alt="not-found"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler x" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+                    aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse" id="navbarsExample05">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link active fs-5 mx-4" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link active fs-5 mx-lg-4" aria-current="page" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5 mx-4" href="#">ABOUT US</a>
+                            <a class="nav-link fs-5 mx-lg-4" href="#">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5 mx-4" href="#">CONTACT US</a>
+                            <a class="nav-link fs-5 mx-lg-4" href="#">CONTACT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5 mx-4" href="#">BLOG</a>
+                            <a class="nav-link fs-5 mx-lg-4" href="#">BLOG</a>
                         </li>
                     </ul>
                 </div>
@@ -51,31 +56,47 @@
             <div class="col-12 text-center">
                 <p class="head-font">Rahim Yar Khan</p>
                 <h1 class="hero-font main-font">Plan <span class="yellow-color main-font">100</span></h1>
-                <p class="dis-font fs-4 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, similique.</p>
+                <p class="dis-font fs-4 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                    similique.</p>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container-fluid py-4 orange-bg">
-            <div class="row justify-content-center align-items-center text-center">
-                <div class="col-4">
-                    <p>Copyright 2023 <a target="_blank" class="fw-bold" href="https://helloworldtech.com/">Hello World Technologies</a>. All rights
-                        reserved.
-                    </p>
-                </div>
-                <div class="col-4">
-                    <a href="#"><i class="fa-solid fa-phone mx-2 text-black"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram
-                                mx-2 text-black"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in mx-2 text-black"></i></i></a>
-                </div>
-                <div class="col-4">
-                    <p>Term of use   Privacy Policy</p>
+        <div class="container-fluid py-2 orange-bg">
+            <div class="container-lg">
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col-sm-12 col-md-12 col-lg-4 py-3 foter-b">
+                        <p>Copyright 2023 <a target="_blank" class="fw-bold text-dark" href="https://helloworldtech.com/">Hello
+                                World
+                                Technologies</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 py-3 foter-b icons">
+                        <a target="_blank" href="https://www.facebook.com/planhundred"><i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/plan100ryk/"><i class="fa-brands fa-instagram mx-2"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/planhundred/"><i class="fa-brands fa-linkedin-in mx-2"></i></i></a>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 py-3 foter-b">
+                        <p>Term of use Privacy Policy</p>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 
