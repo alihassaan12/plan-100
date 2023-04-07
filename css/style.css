@@ -1,5 +1,36 @@
-* {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "PlayfairDisplay";
+}
+
+p {
+    font-family: "Montserrat";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+}
+.bg-mission-vector{
+    background-image: url(../image/about-us/New\ Project.png);
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+.vision-bg {
+    background: linear-gradient(to right, rgba(253, 243, 243, 0.61), #fafbfc);
+}
+
+.mission-bg {
+    background: linear-gradient(to right, #fafbfc, rgba(253, 243, 243, 0.61));
+}
+
+.orange-linear {
+    background: linear-gradient(180deg, #FFC700 -30.47%, #D77C4E 100%);
+    border: 1px solid #FF9100;
 }
 
 .nav-logo {
@@ -27,7 +58,6 @@ p {
 }
 
 .head-font {
-    font-family: "Tajawal";
     letter-spacing: 20px;
     font-size: 30px;
 }
@@ -46,7 +76,7 @@ p {
 }
 
 .main-font {
-    font-family: "Exo";
+    font-family: "Revivalisem-";
 }
 
 .yellow-color {
@@ -202,10 +232,23 @@ a {
     transform-origin: bottom left;
 }
 
+.font-sacranto {
+    font-family: "Sacramento";
+}
 
 @font-face {
-    font-family: "Tajawal";
-    src: url(fonts/Tajawal-Light.ttf);
+    font-family: "Sacramento";
+    src: url(/css/fonts/Sacramento/Sacramento-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(/css/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url(fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf);
 }
 
 @font-face {
@@ -214,8 +257,8 @@ a {
 }
 
 @font-face {
-    font-family: "Exo";
-    src: url(fonts/Exo-ExtraBold.ttf);
+    font-family: "Revivalisem-";
+    src: url(fonts/Revivalisem-/Revivalisem-demo-Regular.ttf);
 }
 
 @media only screen and (min-width: 1024px) {}
