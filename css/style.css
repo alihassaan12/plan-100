@@ -262,20 +262,6 @@ a {
     src: url(fonts/Revivalisem-/Revivalisem-demo-Regular.ttf);
 }
 
-@media only screen and (min-width: 1024px) {}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
-    .bg-mission-vector {
-            background-image: url(../image/about-us/New\ Project.png);
-            background-repeat: no-repeat;
-            height: 52vh;
-        }
-}
-
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .head-font {
         font-family: "Tajawal";
@@ -303,13 +289,6 @@ a {
 
     .line-hov::after {
         display: none;
-    }
-
-    .bg-mission-vector {
-        background-image: url(../image/about-us/New\ Project.png), linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.322));
-        background-repeat: no-repeat;
-        height: 63vh;
-        color: white !important;
     }
 
 }
@@ -375,12 +354,6 @@ a {
         display: none;
     }
 
-    .bg-mission-vector {
-        background-image: url(../image/about-us/New\ Project.png), linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.322));
-        background-repeat: no-repeat;
-        height: 91vh;
-        color: white !important;
-    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -413,10 +386,4 @@ a {
         display: none;
     }
 
-    .bg-mission-vector {
-        background-image: url(../image/about-us/New\ Project.png), linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.322));
-        background-repeat: no-repeat;
-        height: 91vh;
-        color: white !important;
-    }
 }
