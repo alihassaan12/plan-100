@@ -22,7 +22,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 px-3">
+        <nav class="navbar navbar-expand-lg py-3 px-3 black nav fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img src="image/logo.png" class="nav-logo"
                         alt="not-found"></a>
@@ -35,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarsExample05">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2 line-hov" href="#">About Us</a>
+                            <a class="nav-link mx-lg-2 line-hov" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mx-lg-2 line-hov" href="#vision">Our Vision</a>
@@ -56,7 +56,7 @@
     </header>
     <!-- nav-bar end -->
     <!-- hero-sec-start -->
-    <div class="container-fluid p-0 bg-hero-about">
+    <div class="container-fluid p-0 bg-hero-about top-align" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5 text-center mx-auto py-5">
@@ -73,33 +73,26 @@
                         with funding, mentorship, and a community of driven entrepreneurs cheering you on!</p>
                 </div>
             </div>
-            <div class="row justify-content-center py-4">
-                <div class="col-sm-12 col-md-12 col-lg-5 text-center">
-                    <button class="rounded-pill bg-transparent px-5 py-3 mx-2">Learn More</button>
-                    <button class="orange-linear rounded-pill px-5 py-3  text-white mx-2">Join Now</button>
-                </div>
-            </div>
-            <div class="row justify-content-center py-4">
-                <div class="col-sm-12 col-md-12 col-lg-5 text-center">
-                    <div>
-                        <a href="">
-                            <i class="fa-brands fa-linkedin orange-color mx-2"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-brands fa-twitter orange-color mx-2"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-brands fa-facebook-f orange-color mx-2"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-brands fa-square-instagram orange-color mx-2"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
-        <div class="col-12 pt-3 px-0">
-            <img src="image/about-us/Layer_1 (2).png" class="img-fluid" alt="not-found">
+        <div class="col-12 px-0 bg-rocket">
+            <div class=" text-center py-4">
+                <button class="rounded-pill bg-transparent px-5 py-3 mx-2">Learn More</button>
+                <button class="orange-linear rounded-pill px-5 py-3  text-white mx-2">Join Now</button>
+            </div>
+            <div class="d-flex justify-content-center pt-5">
+                <a href="">
+                    <i class="fa-brands fa-linkedin orange-color mx-2"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-twitter orange-color mx-2"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook-f orange-color mx-2"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-square-instagram orange-color mx-2"></i>
+                </a>
+            </div>
         </div>
     </div>
     <!-- hero-sec-end -->
@@ -167,6 +160,21 @@
     </div>
     <!-- our-mission-end -->
 
+
+    <script>
+        var navbar = document.querySelector( 'nav' )
+
+        window.onscroll = function ()
+        {
+
+            // pageYOffset or scrollY
+            if ( window.pageYOffset > 0 ) {
+                navbar.classList.add( 'scrolled' )
+            } else {
+                navbar.classList.remove( 'scrolled' )
+            }
+        }
+    </script>
 </body>
 
 </html>

@@ -227,6 +227,37 @@ a {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
+.top-align{
+    margin-top: 7%;
+}
+.bg-rocket{
+    background-image: url(../image/about-us/Layer_1\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+/* nav-scroll */
+
+nav {
+    position: fixed;
+    background: transparent;
+}
+
+nav.scrolled {
+    background: #ff9100a8;
+}
+
+nav.scrolled a {
+    color: rgb(255, 255, 255) !important;
+    font-weight: bolder;
+}
+
+main {
+    height: 200vh;
+}
+
+/* nav-scroll */
 
 .line-hov:hover::after {
     transform: scaleX(1);
